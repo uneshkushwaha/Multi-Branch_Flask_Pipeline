@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE="docker.io/cloudwithvarjosh/cwvj-flask"
+        IMAGE="docker.io/uneshkushwaha/multibranch_flask"
         TAG="${BUILD_NUMBER}"
     }
     stages {
